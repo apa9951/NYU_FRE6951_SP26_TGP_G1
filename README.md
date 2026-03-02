@@ -1,7 +1,7 @@
 # NYU_FRE6951_SP26_TGP_G1  
 ## Sustainability Investment – ESG News Sentiment & Market Risk
 
-### 📌 Project Overview
+### A. Project Overview
 
 This project investigates whether ESG-related news sentiment can serve as an early warning indicator for short-term market risk. Using structured news tone data from GDELT and market data from Yahoo Finance, we examine the relationship between ESG news sentiment and equity market volatility.
 
@@ -9,7 +9,7 @@ The objective is to evaluate whether negative ESG sentiment precedes elevated ma
 
 ---
 
-### 🎯 Research Focus
+### B. Research Focus
 
 We define **short-term risk** as a 5-day rolling volatility window.  
 The study evaluates:
@@ -20,7 +20,7 @@ The study evaluates:
 
 ---
 
-### 📊 Data Sources
+### C. Data Sources
 
 - **GDELT Project** – ESG-related news tone (TimelineTone API)
 - **Yahoo Finance (yfinance)** – SPY and ESGU daily price data
@@ -28,7 +28,7 @@ The study evaluates:
 
 ---
 
-### 🧠 Methodology
+### D. Methodology
 
 1. News filtering using predefined ESG keyword queries  
 2. Extraction of daily average Tone scores  
@@ -40,7 +40,7 @@ The study evaluates:
 
 ---
 
-### 📈 Key Findings
+### E. Key Findings
 
 - Negative ESG sentiment is associated with higher short-term volatility  
 - Lagged sentiment (t-2 to t-5) remains statistically relevant  
@@ -49,7 +49,7 @@ The study evaluates:
 
 ---
 
-### ⚙️ Repository Structure
+### F. Repository Structure
 NYU_FRE6951_SP26_TGP_G1/
 │
 ├── ESG_Project_Final.ipynb
@@ -65,7 +65,7 @@ NYU_FRE6951_SP26_TGP_G1/
 
 ---
 
-### ▶️ How to Run
+### G. How to Run
 
 1. Install required packages:
 pip install -r requirements.txt
@@ -77,7 +77,7 @@ ESG Final Project - Muhideen Ogunlowo and Azfina.ipynb
 
 ---
 
-### ⚠️ Limitations
+### H. Limitations
 
 - GDELT Tone scores are broad and not ESG-calibrated  
 - Short sample window limits external generalizability  
@@ -85,7 +85,7 @@ ESG Final Project - Muhideen Ogunlowo and Azfina.ipynb
 
 ---
 
-### 👥 Authors
+### Thank You
 
 Muhideen Ogunlowo and Azfina Anindita – FRE 6951  
 NYU Tandon School of Engineering  
