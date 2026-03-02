@@ -49,23 +49,7 @@ The study evaluates:
 
 ---
 
-### F. Repository Structure
-NYU_FRE6951_SP26_TGP_G1/
-│
-├── ESG_Project_Final.ipynb
-├── requirements.txt
-├── figures/
-│ ├── fig1_tone_distribution.png
-│ ├── fig2_time_series.png
-│ ├── fig3_esg_subindex.png
-│ └── ...
-└── report/
-└── Final_Report.pdf
-
-
----
-
-### G. How to Run
+### F. How to Run
 
 1. Install required packages:
 pip install -r requirements.txt
@@ -77,7 +61,7 @@ ESG Final Project - Muhideen Ogunlowo and Azfina.ipynb
 
 ---
 
-### H. Limitations
+### G. Limitations
 
 - GDELT Tone scores are broad and not ESG-calibrated  
 - Short sample window limits external generalizability  
